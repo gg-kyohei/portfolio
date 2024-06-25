@@ -1,0 +1,99 @@
+.mainvisual {
+  width: 100%;
+}
+
+.mainvisual-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mainvisual video {
+  max-width: 100%;
+}
+
+.mainvisual-heading {
+  position: absolute;
+  z-index: 10;
+}
+
+.about-heading {
+  margin: 80px;
+  font-size: 80px;
+}
+
+.about-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-img img {
+  width: 500px;
+}
+
+.about-button {
+  background-color: darksalmon;
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  border-radius: 24px;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skills-inner {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.skills-heading {
+  font-size: 80px;
+}
+
+.skills-item {
+  margin-bottom: 40px;
+}
+
+.skills-item h3 {
+  font-size: 40px;
+}
+
+.works-heading {
+  font-size: 80px;
+}
+
+.works-text {
+  display: flex;
+  justify-content: flex-start;
+  margin: 40px 0;
+}
+
+.works-item img {
+  width: 500px;
+}
+
+.works-button {
+  background-color: darksalmon;
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  border-radius: 24px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-inner {
+  text-align: center;
+  margin: 100px;
+}
+
+.contact-circle img {
+  width: 80px;
+  height: 80px;
+}
+
+.contact-heading {
+  font-size: 80px;
+}
