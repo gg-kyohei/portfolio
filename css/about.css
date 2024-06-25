@@ -1,11 +1,13 @@
-
-
 .circle {
-  color: #fff;
-  background-color: red;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
+	color: #fff;
+	background-color: red;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.profile-heading {
+	font-size: 40px;
 }
