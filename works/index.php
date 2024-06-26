@@ -25,44 +25,67 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 				<div class="works-container">
 					<ul class="works-list">
 						<li class="works-item">
-							<img src="<?php echo $path; ?>img/works1.jpg" alt="制作物1">
-							<h3>タイトル</h3>
-							<p>説明</p>
+							<a href="<?php echo $path; ?>works/contents1/index.php">
+								<img src="<?php echo $path; ?>img/works1.jpg" alt="制作物1">
+								<h3>タイトル</h3>
+								<p class="works-item">説明</p>
+							</a>
 						</li>
+
 						<li class="works-item">
-							<img src="<?php echo $path; ?>img/works2.jpg" alt="制作物2">
-							<h3>タイトル</h3>
-							<p>説明</p>
+							<a href="<?php echo $path; ?>works/contents2/index.php">
+								<img src="<?php echo $path; ?>img/works2.jpg" alt="制作物2">
+								<h3>タイトル</h3>
+								<p category>説明</p>
+							</a>
 						</li>
+
 						<li class="works-item">
-							<img src="<?php echo $path; ?>img/works3.jpg" alt="制作物3">
-							<h3>タイトル</h3>
-							<p>説明</p>
+							<a href="<?php echo $path; ?>works/contents3/index.php">
+								<img src="<?php echo $path; ?>img/works3.jpg" alt="制作物3">
+								<h3>タイトル</h3>
+								<p category>説明</p>
+							</a>
 						</li>
+
 						<li class="works-item">
-							<img src="<?php echo $path; ?>img/works4.jpg" alt="制作物4">
-							<h3>タイトル</h3>
-							<p>説明</p>
+							<a href="<?php echo $path; ?>works/contents4/index.php">
+								<img src="<?php echo $path; ?>img/works4.jpg" alt="制作物4">
+								<h3>タイトル</h3>
+								<p category>説明</p>
+							</a>
 						</li>
+
 						<li class="works-item">
-							<img src="<?php echo $path; ?>img/works5.jpg" alt="制作物5">
-							<h3>タイトル</h3>
-							<p>説明</p>
+							<a href="<?php echo $path; ?>works/contents5/index.php">
+								<img src="<?php echo $path; ?>img/works5.jpg" alt="制作物5">
+								<h3>タイトル</h3>
+								<p category>説明</p>
+							</a>
 						</li>
+
 						<li class="works-item">
-							<img src="<?php echo $path; ?>img/works6.jpg" alt="制作物6">
-							<h3>タイトル</h3>
-							<p>説明</p>
+							<a href="<?php echo $path; ?>works/contents6/index.php">
+								<img src="<?php echo $path; ?>img/works6.jpg" alt="制作物6">
+								<h3>タイトル</h3>
+								<p category>説明</p>
+							</a>
 						</li>
+
 						<li class="works-item">
-							<img src="<?php echo $path; ?>img/works1.jpg" alt="制作物7">
-							<h3>タイトル</h3>
-							<p>説明</p>
+							<a href="<?php echo $path; ?>works/contents7/index.php">
+								<img src="<?php echo $path; ?>img/works1.jpg" alt="制作物7">
+								<h3>タイトル</h3>
+								<p category>説明</p>
+							</a>
 						</li>
+
 						<li class="works-item">
-							<img src="<?php echo $path; ?>img/works2.jpg" alt="制作物8">
-							<h3>タイトル</h3>
-							<p>説明</p>
+								<a href="<?php echo $path; ?>works/contents8/index.php">
+								<img src="<?php echo $path; ?>img/works2.jpg" alt="制作物8">
+								<h3>タイトル</h3>
+								<p category>説明</p>
+							</a>
 						</li>
 					</ul>
 				</div>

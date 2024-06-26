@@ -60,7 +60,11 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 					</dl>
 				</form>
 
-				<button class="submit-button" type="submit">←Back to Top</button>
+				<div class="Back-button-container">
+					<button class="Back-button" type="back">
+						<a href="<?php echo $path; ?>index.php">←Back to Top</a>
+					</button>
+				</div>
 			</div>
 		</div>
 	</main>

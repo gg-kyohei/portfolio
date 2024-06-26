@@ -1,0 +1,34 @@
+.contents-heading {
+  font-size: 40px;
+}
+
+.contens-mv {
+  text-align: center;
+}
+
+.contens-phot {
+  width: 700px;
+  height: 500px;
+}
+
+.contents-discription {
+  margin: 40px;
+}
+
+.contents-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contents-item {
+  width: 500px;
+  height: 300px;
+}
+
+.contents-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px;
+}

@@ -1,13 +1,83 @@
-.circle {
-	color: #fff;
-	background-color: red;
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
+/* =============プロフィールの部分=============================== */
+.profile-inner {
+  text-align: center;
 }
 
 .profile-heading {
-	font-size: 40px;
+  font-size: 40px;
 }
+
+.profile-inner img {
+  width: 500px;
+  margin: 10px;
+}
+
+.profile-name {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.profile-text {
+  margin: 20px;
+}
+/* ============================================ */
+
+/* ================バイオグラフィーの部分============================ */
+.biography-heading {
+  font-size: 40px;
+  margin: 40px;
+}
+
+.biography-list {
+  display: flex;
+}
+
+.biography-item {
+  margin: 20px 40px;
+}
+
+.biography-title {
+  font-size: 30px;
+}
+/* ============================================ */
+
+/* ================ストレングスの部分============================ */
+.strength-heading {
+  font-size: 40px;
+  margin: 40px;
+}
+
+.circle {
+  color: #fff;
+  background-color: black;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.strength-item {
+  display: flex;
+  justify-content: center;
+}
+
+.strength-block {
+  margin: 20px 80px;
+}
+
+.strength-title {
+  font-size: 40px;
+}
+
+.strength-subtitle {
+  font-size: 16px;
+  text-align: center;
+}
+/* ============================================ */

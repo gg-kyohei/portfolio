@@ -37,33 +37,37 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 				<div class="biography-container">
 					<ul class="biography-list">
 						<li class="biography-item">
-							<p>1996.11</p>
-							<p>幼少期</p>
-							<p>テキストテキストテキスト<br>
+							<p class="biography-date">1996.11</p>
+							<p class="biography-title">幼少期</p>
+							<span class="biography-dot"></span>
+							<p class="biography-description">テキストテキストテキスト<br>
 							テキストテキストテキスト<br>
 							テキストテキストテキスト<br></p>
 						</li>
 						
 						<li class="biography-item">
-							<p>2015.04</p>
-							<p>大学入学</p>
-							<p>テキストテキストテキスト<br>
+							<p class="biography-date">2015.04</p>
+							<p class="biography-title">大学入学</p>
+							<span class="biography-dot"></span>
+							<p class="biography-description">テキストテキストテキスト<br>
 							テキストテキストテキスト<br>
 							テキストテキストテキスト<br></p>
 						</li>
 
 						<li class="biography-item">
-							<p>2019.04</p>
-							<p>卒業後</p>
-							<p>テキストテキストテキスト<br>
+							<p class="biography-date">2019.04</p>
+							<p class="biography-title">卒業後</p>
+							<span class="biography-dot"></span>
+							<p class="biography-description">テキストテキストテキスト<br>
 							テキストテキストテキスト<br>
 							テキストテキストテキスト<br></p>
 						</li>
 
 						<li class="biography-item">
-							<p>2024.03</p>
-							<p>現在</p>
-							<p>テキストテキストテキスト<br>
+							<p class="biography-date">2024.03</p>
+							<p class="biography-title">現在</p>
+							<span class="biography-dot"></span>
+							<p class="biography-description">テキストテキストテキスト<br>
 							テキストテキストテキスト<br>
 							テキストテキストテキスト<br></p>
 						</li>
@@ -74,7 +78,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 
 		<section class="strength">
 			<div class="strength-inner">
-				<h2 class="strength-header">Strength</h2>
+				<h2 class="strength-heading">Strength</h2>
 
 				<div class="circle-container">
 					<div class="circle">Comunication</div>
@@ -85,25 +89,31 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 				<div class="strength-container">
 					<ul class="strength-list">
 						<li class="strength-item">
-							<h3>Comunication</h3>
-							<h4>コミュニケーション</h4>
-							<p>テキストテキストテキスト<br>
+							<div class="strength-block">
+								<h3 class="strength-title">Comunication</h3>
+								<h4 class="strength-subtitle">コミュニケーション</h4>
+							</div>
+							<p class="strength-description">テキストテキストテキスト<br>
 							テキストテキストテキスト<br>
 							テキストテキストテキスト<br></p>
 						</li>
 
 						<li class="strength-item">
-							<h3>cautious</h3>
-							<h4>慎重</h4>
-							<p>テキストテキストテキスト<br>
+							<div class="strength-block">
+								<h3 class="strength-title">cautious</h3>
+								<h4 class="strength-subtitle">慎重</h4>
+							</div>
+							<p class="strength-description">テキストテキストテキスト<br>
 							テキストテキストテキスト<br>
 							テキストテキストテキスト<br></p>
 						</li>
 
 						<li class="strength-item">
-							<h3>Ambition</h3>
-							<h4>向上心</h4>
-							<p>テキストテキストテキスト<br>
+							<div class="strength-block">
+								<h3 class="strength-title">Ambition</h3>
+								<h4 class="strength-subtitle">向上心</h4>
+							</div>
+							<p class="strength-description">テキストテキストテキスト<br>
 							テキストテキストテキスト<br>
 							テキストテキストテキスト<br></p>
 						</li>

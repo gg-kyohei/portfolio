@@ -20,7 +20,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 	<main class="main">
 		<div class="mainvisual">
 			<div class="mainvisual-inner">
-				<h2 class="mainvisual-heading">Shoko Maeda</h2>
+				<h2 class="mainvisual-heading">Shoko</h2>
 
 				<div class="video">
 					<video src="<?php echo $path; ?>img/index_mv.mp4" autoplay loop muted playsinlin>
@@ -39,12 +39,18 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 					</div>
 
 					<div class="about-container">
-						<h3 class="about-name">前田翔子</h3>
+						<h3 class="about-name">前田翔子 - Shoko Maeda</h3>
 
-						<p class="about-text">1996年11月18日生まれ。愛知県出身。</p>
+						<p class="about-text">
+							1996年11月18日生まれ。愛知県出身。<br>
+							大学を卒業後、5年間様々な業種の事務職に従事。<br>
+							2024年3月、ヒューマンアカデミー株式会社の職業訓練校へ入校し、<br>
+							Webデザインやコーディングについて学ぶ。<br>
+							好きなことはゲーム、漫画、アニメ、ディズニー。
+						</p>
 
 						<div class="about-button">
-							<a href="<?php echo $path; ?>about/index.php">View Profile→</a>
+							<a href="<?php echo $path; ?>about/index.php">View Profile →</a>
 						</div>
 					</div>
 				</div>
@@ -58,27 +64,43 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 				<div class="skills-container">
 					<ul class="skills-list">
 						<li class="skills-item">
-							<h3>Web Design</h3>
-							<p>テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br></p>
+							<h3 class="skills-item-title">Web Design</h3>
+
+							<p class="skills-item-discription">
+								Webサイト、バナーなどの制作ができます。<br>
+								見た目だけでなく機能面にも配慮し、ユーザーが快適な体験をできるようなデザインを目指しています。<br>
+							</p>
+
+							<p class="skills-item-tool">
+								Tools:figma、canva
+							</p>
 						</li>
 
 						<li class="skills-item">
-							<h3>Web Development</h3>
-							<p>テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br></p>
+							<h3 class="skills-item-title">Web Development</h3>
+
+							<p class="skills-item-discription">
+								HTML・CSSを使用し、デザインを正しく再現することができます。<br>
+								サイトに動きを加えることも可能です。<br>
+								コードを見たときに、誰が見ても分かりやすい記述になるよう綺麗に記述することを心掛けています。<br>
+							</p>
+
+							<p class="skills-item-tool">
+								Tools:Visual Studio Code
+							</p>
 						</li>
 						
 						<li class="skills-item">
-							<h3>AI Prompt</h3>
-							<p>テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br>
-							テキストテキストテキストテキス<br></p>
+							<h3 class="skills-item-title">AI Prompt</h3>
+
+							<p class="skills-item-discription">
+							文章、画像、動画のそれぞれの生成AIを使用することができます。<br>
+							AIプロンプトを活用することで、タスクの効率化やユーザーエクスペリエンスの向上を実感しました。<br>
+							</p>
+
+							<p class="skills-item-tool">
+								Tools:chatGPT/copilot/sunoAI/vrew etc...
+							</p>
 						</li>
 					</ul>
 				</div>
@@ -120,8 +142,10 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 					</ul>
 				</div>
 
-				<div class="works-button">
-					<a href="<?php echo $path; ?>works/index.php">view more works→</a>
+				<div class="works-button-container">
+					<div class="works-button">
+						<a href="<?php echo $path; ?>works/index.php">view more works→</a>
+					</div>
 				</div>
 			</div>
 		</section>
