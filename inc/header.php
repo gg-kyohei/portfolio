@@ -1,5 +1,5 @@
 <header class="header">
-	<div class="header-inner inner">
+	<div class="header-inner">
 		<a href="<?php echo $path; ?>index.php" class="header-logo">
 			<p class="header-logo">Shoko</p>
 		</a>
