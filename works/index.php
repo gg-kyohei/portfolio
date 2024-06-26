@@ -19,7 +19,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 
 	<main class="main">
 		<div class="works">
-			<div class="works-inner">
+			<div class="works-inner inner">
 				<h2 class="works-heading">WORKS</h2>
 
 				<div class="works-container">

@@ -19,7 +19,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 
 	<main class="main">
 		<section class="profile">
-			<div class="profile-inner">
+			<div class="profile-inner inner">
 				<h2 class="profile-heading">ABOUT</h2>
 
 				<img src="<?php echo $path; ?>img/about.jpg" alt="自画像">
@@ -31,7 +31,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 		</section>
 
 		<section class="biography">
-			<div class="biography-inner">
+			<div class="biography-inner inner">
 				<h2 class="biography-heading">Biography</h2>
 
 				<div class="biography-container">
@@ -77,7 +77,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 		</section>
 
 		<section class="strength">
-			<div class="strength-inner">
+			<div class="strength-inner inner">
 				<h2 class="strength-heading">Strength</h2>
 
 				<div class="circle-container">

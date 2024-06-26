@@ -19,7 +19,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 
 	<main class="main">
 		<div class="mainvisual">
-			<div class="mainvisual-inner">
+			<div class="mainvisual-inner inner">
 				<h2 class="mainvisual-heading">Shoko</h2>
 
 				<div class="video">
@@ -30,7 +30,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 		</div>
 
 		<section class="about">
-			<div class="about-inner">
+			<div class="about-inner inner">
 				<h2 class="about-heading">ABOUT</h2>
 
 				<div class="about-main">
@@ -58,7 +58,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 		</section>
 
 		<section class="skills">
-			<div class="skills-inner">
+			<div class="skills-inner inner">
 				<h2 class="skills-heading">SKILLS</h2>
 
 				<div class="skills-container">
@@ -108,7 +108,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 		</section>
 
 		<section class="works">
-			<div class="works-inner">
+			<div class="works-inner inner">
 				<h2 class="works-heading">WORKS</h2>
 
 				<div class="works-container">
@@ -151,7 +151,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 		</section>
 
 		<section class="contact">
-			<div class="contact-inner">
+			<div class="contact-inner inner">
 				<div class="contact-circle">
 					<a href="<?php echo $path; ?>contact/index.php">
 						<img src="<?php echo $path; ?>img/mail.png" alt="contact">

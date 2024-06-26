@@ -18,7 +18,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 	<?php include $path . 'inc/header.php'; ?> <!-- header.php の読み込み -->
 
 	<main class="main">
-		<section class="contens-inner">
+		<section class="contens-inner inner">
 			<div class="contens-head">
 				<h1 class="contents-heading">タイトル</h1>
 				<p class="contents-data">カテゴリ、作成日</p>

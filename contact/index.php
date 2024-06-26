@@ -19,7 +19,7 @@ include $path .'inc/head.php'; //変更（$path. を追加）
 
 	<main class="main">
 		<div class="contact">
-			<div class="contact-inner">
+			<div class="contact-inner inner">
 				<h1 class="contact-heading">CONTACT</h1>
 
 				<p class="contact-text">ご興味を持っていただき誠にありがとうございます。<br>
